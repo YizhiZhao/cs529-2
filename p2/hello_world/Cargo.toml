@@ -1,0 +1,13 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Yizhi Zhao <yizhi.zhao@yale.edu>"]
+build = "../../build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[dependencies.terminal_print]
+path = "../../kernel/terminal_print"
