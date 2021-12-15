@@ -1,0 +1,21 @@
+[package]
+name = "memuse"
+version = "0.1.0"
+authors = ["Yizhi Zhao <yizhi.zhao@yale.edu>"]
+build = "../../build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.log]
+version = "0.4.8"
+
+[dependencies.task]
+path = "../task"
+
+#[dependencies.terminal_print]
+#path = "../terminal_print"
+
+[dependencies.kernel_config]
+path = "../kernel_config"
