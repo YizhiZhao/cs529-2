@@ -1,0 +1,16 @@
+[package]
+name = "mem_incre"
+version = "0.1.0"
+authors = ["Yizhi Zhao <yizhi.zhao@yale.edu>"]
+build = "../../build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+getopts = "0.2.21"
+
+[dependencies.terminal_print]
+path = "../../kernel/terminal_print"
+
+[dependencies.app_io]
+path = "../app_io"
